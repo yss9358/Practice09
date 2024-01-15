@@ -22,17 +22,13 @@ public class FriendApp {
     
     	System.out.println("친구를 3명 등록해 주세요");
     	
-    	for (int i=0; i<3; i++) {
-    		
+    	for (int i=0; i<fArray.size(); i++) {
     		fArray.set(i, new Friend(sc.next(), sc.next(), sc.next()));
-    		/*
-    		fArray.get(i).setName(sc.next() + " ");
-    	    fArray.get(i).setHp(sc.nextLine() + " ");
-    	    fArray.get(i).setSchool(sc.nextLine() + " ");
-    		 */
-    		   			 
     	}
     	
+    	for (int i=0; i<fArray.size(); i++) {
+    		fArray.get(i).draw();
+    	}
     	
     	sc.close();
     	
