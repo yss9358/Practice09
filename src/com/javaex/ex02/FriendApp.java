@@ -30,9 +30,9 @@ public class FriendApp {
     	    fArray.get(i).setHp(sc.nextLine() + " ");
     	    fArray.get(i).setSchool(sc.nextLine() + " ");
     		 */
-    			 
+    		   			 
     	}
-    	System.out.println();    	
+    	
     	
     	sc.close();
     	
