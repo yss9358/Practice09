@@ -13,17 +13,16 @@ public class GoodsApp {
     	
     	System.out.println("상품을 입력해주세요(종료 q)");
     	
-    	for (int i=0; i<gArray.size(); i++) {
+    	while (true) {
     		
-    		gArray.set(i, new Goods( sc.next(),sc.nextInt(),sc.nextInt()));
-    		
+    		Goods i = new Goods(sc.next(),sc.nextInt(),sc.nextInt());
     		if(sc.next().equals("q")) {
-    			System.out.println("[입력완료]");
-    			System.out.println("============================");
-    	    	
     			break;
     		}
+    		
+    		
     	}
+   
     	
     	
     	
