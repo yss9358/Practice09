@@ -7,13 +7,12 @@ public class Friend {
 	private String name;
     private String hp;
     private String school;
-	
     // 생성자
 	
 	public Friend() {
 		
 	}
-    
+   
 	public Friend(String name, String hp, String school) {
 		this.name = name;
 		this.hp = hp;

@@ -23,7 +23,8 @@ public class FriendApp {
     	System.out.println("친구를 3명 등록해 주세요");
     	
     	for (int i=0; i<fArray.size(); i++) {
-    		fArray.set(i, new Friend(sc.next(), sc.next(), sc.next()));
+    		
+    		fArray.set(i, new Friend(sc.next(),sc.next(),sc.next()));
     	}
     	
     	for (int i=0; i<fArray.size(); i++) {
